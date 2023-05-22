@@ -5,7 +5,7 @@ import ButtonPhrase from './components/ButtonPhrase'
 import PhrasesCard from './components/PhrasesCard'
 import phrases from './utils/phrases.json'
 import randomElementFromArray from './utils/randomElementFromArray'
-import copyRight from './components/copyRight'
+import CopyRight from './components/copyRight'
 
 const arrBackground = [1, 2, 3, 4, 5, 6, 7, 8]
 
@@ -30,7 +30,7 @@ function App() {
     arrBackground={arrBackground}
     />
    <PhrasesCard  phraseRandom={phraseRandom}/>
-   <copyRight copyRight={copyRight} />
+   <CopyRight />
    </div>
   )
 }
