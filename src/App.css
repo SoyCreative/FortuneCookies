@@ -1,0 +1,48 @@
+.app{
+    background-size: cover; 
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.app__title {
+    position: absolute;
+    top: 2em;
+    font-size: 1.7em;
+}
+
+.card {
+    font-size: 1rem;
+    padding: 1.5em;
+    padding: 1.5em;
+    border-radius: 0.8em;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    line-height: 1.5;
+    border: 0.15em solid #063970;
+    color: #000000bb;
+    box-shadow: 0.3em 0.3em 1em #0008;
+
+}
+
+.app__btn {
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    background-color: #ffa645;
+    font-weight: 500;
+    color: #063970;
+    border: 0.1em solid currentColor;
+    transition: transform 100ms ease;
+    
+}
+
+.app__btn:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
