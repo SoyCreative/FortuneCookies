@@ -46,3 +46,23 @@
     transform: scale(1.05);
     filter: brightness(1.1);
 }
+
+.copyright {
+    position: absolute;
+    bottom: 2em;
+    font-size: 0.8rem;
+    padding: 1.5em 3em;
+    background-color: #fff;
+    border-radius: 0.5em;
+    text-align: center;    
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #042e5e;
+}
+
+.copyright a:hover{
+    color: green;
+}
+
